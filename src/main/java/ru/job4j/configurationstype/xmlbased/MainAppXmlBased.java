@@ -1,12 +1,12 @@
-package ru.job4j.configurationsType.annotationbased;
+package ru.job4j.configurationstype.xmlbased;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class MainAppAnnotationBased {
+public class MainAppXmlBased {
 
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("classpath:annotation-based.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("classpath:xml-based.xml");
         Person person = context.getBean("person", Person.class);
         person.printNamesPets();
     }

@@ -1,10 +1,10 @@
-package ru.job4j.configurationsType.xmlbased;
+package ru.job4j.configurationstype.annotationbased;
 
-public class Canary {
+public class Parrot {
 
     private String name;
 
-    public Canary(String name) {
+    public Parrot(String name) {
         this.name = name;
     }
 

@@ -1,4 +1,4 @@
-package ru.job4j.configurationsType.annotationbased;
+package ru.job4j.configurationstype.annotationbased;
 
 public class Cat {
 

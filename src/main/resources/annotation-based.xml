@@ -5,13 +5,13 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
 
-    <context:component-scan base-package="ru.job4j.configurationsType.annotationbased"/>
+    <context:component-scan base-package="ru.job4j.configurationstype.annotationbased"/>
 
-    <bean id="dogBean" name="dog" class="ru.job4j.configurationsType.annotationbased.Dog">
+    <bean id="dogBean" name="dog" class="ru.job4j.configurationstype.annotationbased.Dog">
         <constructor-arg name="name" value="Sharik"/>
     </bean>
 
-    <bean id="catBean" name="cat" class="ru.job4j.configurationsType.annotationbased.Cat" factory-method="createCat">
+    <bean id="catBean" name="cat" class="ru.job4j.configurationstype.annotationbased.Cat" factory-method="createCat">
         <constructor-arg name="name" value="Vaska"/>
     </bean>
 

@@ -1,7 +1,4 @@
-package ru.job4j.configurationsType.annotationbased;
-
-import jakarta.annotation.PostConstruct;
-import jakarta.annotation.PreDestroy;
+package ru.job4j.configurationstype.xmlbased;
 
 public class Dog {
 
@@ -11,19 +8,16 @@ public class Dog {
         this.name = name;
     }
 
-    public Dog() {
-    }
+    public Dog() { }
 
     public String getName() {
         return name;
     }
 
-    @PostConstruct
     public void postConstruct() {
         System.out.println("bean Dog method postConstruct()");
     }
 
-    @PreDestroy
     public void preDestroy() {
         System.out.println("bean Dog method preDestroy()");
     }

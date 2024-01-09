@@ -1,4 +1,4 @@
-package ru.job4j.configurationsType.annotationbased;
+package ru.job4j.configurationstype.javacodebased;
 
 public class Parrot {
 

@@ -1,4 +1,4 @@
-package ru.job4j.configurationsType.javacodebased;
+package ru.job4j.configurationstype.javacodebased;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -28,12 +28,12 @@ public class Config {
 
     @Bean
     public Parrot parrot() {
-        return birdFactory().getParrot(parrotName) ;
+        return birdFactory().getParrot(parrotName);
     }
 
     @Bean
     public Canary canary() {
-        return birdFactory().getCanary(canaryName) ;
+        return birdFactory().getCanary(canaryName);
     }
 
     @Bean (
@@ -45,7 +45,7 @@ public class Config {
     }
 
     @Bean
-    public Cat cat(){
+    public Cat cat() {
         return Cat.createCat(catName);
     }
 }

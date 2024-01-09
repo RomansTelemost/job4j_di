@@ -1,4 +1,4 @@
-package ru.job4j.configurationsType.xmlbased;
+package ru.job4j.configurationstype.xmlbased;
 
 public class Person {
 

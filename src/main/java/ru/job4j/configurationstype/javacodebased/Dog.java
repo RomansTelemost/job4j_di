@@ -1,4 +1,4 @@
-package ru.job4j.configurationsType.javacodebased;
+package ru.job4j.configurationstype.javacodebased;
 
 import jakarta.annotation.PreDestroy;
 
